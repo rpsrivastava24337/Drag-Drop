@@ -9,18 +9,35 @@
 </head>
 
 <body>
-
+    <h1>Drag-Drop</h1>
     <div class="container">
-        <div id="left">
+        <div id="left" ondragover="allowDrop(event)" ondrop="onDrop(event)">
 
+            <div class="list" id="item1" draggable="true" ondragstart="onDrag(event)" ondragleave="ongrableave(event)">1
+            </div>
+            <div class="list" id="item2" draggable="true" ondragstart="onDrag(event)">2</div>
+
+            <div class="list" id="item3" draggable="true" ondragstart="onDrag(event)">3</div>
+            <div class="list" id="item4" draggable="true" ondragstart="onDrag(event)">4</div>
+
+            <div class="list" id="item5" draggable="true" ondragstart="onDrag(event)">5</div>
+            <div class="list" id="item6" draggable="true" ondragstart="onDrag(event)">6</div>
+
+            <div class="list" id="item7" draggable="true" ondragstart="onDrag(event)">7</div>
+            <div class="list" id="item8" draggable="true" ondragstart="onDrag(event)">8</div>
 
         </div>
-        <div id="right">
 
-
+        <div id="right" ondragover="allowDrop(event)" ondrop="onDrop(event)">
+            <div class="list" id="item18" draggable="true" ondragstart="onDrag(event)">9</div>
+            <div class="list" id="item11" draggable="true" ondragstart="onDrag(event)">10</div>
+         
         </div>
+
     </div>
-
+    <footer>
+        <p>Developed by RPS</p>
+    </footer>
     <script src="app.js"></script>
 </body>
 

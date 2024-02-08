@@ -36,6 +36,7 @@ function allowDrop(e) {
 
 
 
+
 // let lists = document.getElementsByClassName("list")
 // let right = document.getElementById("right")
 
